@@ -1,0 +1,112 @@
+{
+  "recentFiles": [
+    {
+      "basename": "2026-02-08",
+      "path": "feed/2026-02-08.md"
+    },
+    {
+      "basename": "_markdown-elements",
+      "path": "blog/_markdown-elements.md"
+    },
+    {
+      "basename": "_display-pictures",
+      "path": "blog/_display-pictures.md"
+    },
+    {
+      "basename": "Obsidian使用Copilot",
+      "path": "blog/Obsidian使用Copilot.md"
+    },
+    {
+      "basename": "obsidian-copilot2",
+      "path": "blog/obsidian-copilot2.png"
+    },
+    {
+      "basename": "QwenCoder配置到Copilot",
+      "path": "blog/QwenCoder配置到Copilot.md"
+    },
+    {
+      "basename": "qwen4",
+      "path": "blog/qwen4.png"
+    },
+    {
+      "basename": "obsidian-copilot1",
+      "path": "blog/obsidian-copilot1.png"
+    },
+    {
+      "basename": "qwen1",
+      "path": "blog/qwen1.png"
+    },
+    {
+      "basename": "qwen2",
+      "path": "blog/qwen2.png"
+    },
+    {
+      "basename": "vibecoding",
+      "path": "blog/ai/vibecoding.md"
+    },
+    {
+      "basename": "Astro专题",
+      "path": "blog/subject/Astro专题.md"
+    },
+    {
+      "basename": "Llama2大模型下载和使用",
+      "path": "blog/ai/Llama2大模型下载和使用.md"
+    },
+    {
+      "basename": "chatbot_by_python",
+      "path": "blog/ai/chatbot_by_python.md"
+    },
+    {
+      "basename": "conda的安装和使用",
+      "path": "blog/ai/conda的安装和使用.md"
+    },
+    {
+      "basename": "大模型",
+      "path": "blog/ai/大模型.md"
+    },
+    {
+      "basename": "软件可靠性基础知识",
+      "path": "private_blog/sa/9 软件可靠性基础知识/软件可靠性基础知识.md"
+    },
+    {
+      "basename": "软件工程",
+      "path": "private_blog/sa/5 软件工程/软件工程.md"
+    },
+    {
+      "basename": "论文笔记",
+      "path": "private_blog/subject/论文笔记.md"
+    },
+    {
+      "basename": "OAuth2.0认证",
+      "path": "blog/web/OAuth2.0认证.md"
+    },
+    {
+      "basename": "RabbitMQ的Python代码",
+      "path": "blog/web/RabbitMQ的Python代码.md"
+    },
+    {
+      "basename": "Docker专题",
+      "path": "blog/subject/Docker专题.md"
+    },
+    {
+      "basename": "Tailwind",
+      "path": "blog/subject/Tailwind.md"
+    },
+    {
+      "basename": "Github专题",
+      "path": "blog/subject/Github专题.md"
+    },
+    {
+      "basename": "Markdown-writing",
+      "path": "blog/subject/Markdown-writing.md"
+    },
+    {
+      "basename": "_recent模板文件",
+      "path": "blog/subject/_recent模板文件.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

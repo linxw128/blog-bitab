@@ -33,5 +33,12 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [remarkModifiedTime, resetRemark, remarkDirective, remarkAsides({}), remarkCollapse({}), remarkGithubCard(), remarkButton(), remarkHtml()],
     rehypePlugins: [lazyLoadImage],
+  },
+  i18n: {
+    locales: ["en", "zh-cn", "zh-hant", "cs"],
+    defaultLocale: "zh-cn",
+    routing: {
+        prefixDefaultLocale: false
+    }
   }
 });

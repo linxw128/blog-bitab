@@ -48,4 +48,12 @@ export  const en = {
   'title.minutes':' Minutes',
   'title.words':' Words',
   'more': 'More',
+  'nav.blog': 'Blog',
+  'nav.feed': 'Feed',
+  'nav.archive': 'Archive',
+  'nav.message': 'Message',
+  'nav.search': 'Search',
+  'nav.more': 'More',
+  'nav.about': 'About',
+  'nav.friends': 'Friends'
 }

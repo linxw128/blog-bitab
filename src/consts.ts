@@ -23,14 +23,14 @@ import type {AnalyticsConfig} from "./types/analyticsTypes"
  *    All tags will be displayed in single page "/tags".
  */
 export const site = {
-  title: 'Astro Theme Yi', // required
+  title: 'Bitab\'s Blog', // required
   favicon: '/favicon.svg', // required
-  description: 'Welcome to my independent blog website! ',
-  author: "Astro-Yi", // required
+  description: '比塔网的博客 ',
+  author: "比塔网", // required
   avatar: '/avatar.png', // required
-  url: 'https://astro-yi-nu.vercel.app', // required
+  url: 'https://blog.bitab.net', // required
   baseUrl: '', // When using GitHubPages, you must enter the repository name startWith '/'. e.g. '/astro-blog'
-  motto: 'Actions speak louder than words.',
+  motto: 'Nothing but action',
   recentBlogSize: 5,
   archivePageSize: 25,
   postPageSize: 10,
@@ -49,7 +49,8 @@ export const site = {
  * memosPageSize {number} 10
  */
 export const config = {
-  lang: 'en' as 'en' | 'zh-cn' | 'zh-hant' | 'cs', // en | zh-cn | zh-hant | cs
+  //lang: 'en' as 'en' | 'zh-cn' | 'zh-hant' | 'cs', // en | zh-cn | zh-hant | cs
+  lang: 'zh-cn',
   codeFoldingStartLines: 16, // Need to re-run the project to take effect
 
   // memos config
@@ -115,6 +116,62 @@ export const categories = [
     ]
   }
 ]
+
+/**
+ * Navigation categories with internationalization support
+ */
+export function getLocalizedCategories(t: (key: string) => string) {
+  return [
+    {
+      name: t('nav.blog') || "Blog",
+      iconClass: "ri-draft-line",
+      href: "/blog/1",
+    },
+    {
+      name: t('nav.feed') || "Feed",
+      iconClass: "ri-lightbulb-flash-line",
+      href: "/feed/1",
+    },
+    // {
+    //   name: t('nav.memos') || "Memos",
+    //   iconClass: "ri-quill-pen-line",
+    //   href: "/memos",
+    // },
+    {
+      name: t('nav.archive') || "Archive",
+      iconClass: "ri-archive-line",
+      href: "/archive/1",
+    },
+    {
+      name: t('nav.message') || "Message",
+      iconClass: "ri-chat-1-line",
+      href: "/message",
+    },
+    {
+      name: t('nav.search') || "Search",
+      iconClass: "ri-search-line",
+      href: "/search",
+    },
+    {
+      name: t('nav.more') || "More",
+      iconClass: "ri-more-fill",
+      href: "javascript:void(0);",
+      children: [
+        {
+          name: t('nav.about') || 'About',
+          iconClass: 'ri-information-line',
+          href: '/about',
+        },
+        {
+          name: t('nav.friends') || 'Friends',
+          iconClass: 'ri-user-5-line',
+          href: '/friends',
+          target: '_self',
+        },
+      ]
+    }
+  ];
+}
 
 /**
  * Personal link address
