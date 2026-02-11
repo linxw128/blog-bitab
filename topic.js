@@ -26,5 +26,6 @@ const topic = [
         历史加理论加评论
         实战加技巧
 
+        Qwen
 
 ]
