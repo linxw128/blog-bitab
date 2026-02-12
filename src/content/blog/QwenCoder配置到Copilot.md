@@ -31,7 +31,7 @@ https://dashscope.aliyuncs.com/compatible-mode/v1
 ## Manage Models
 打开copilot，右下角点击选择模型，点击Manage Models，添加模型选择OAI Compatible
 ![](qwen4.png)
-我选了最后一个，结果问了两个问题花了两块多，不是有免费额度的吗，我是服了，控制台找半天看不到，找客服去
+我选了最后一个，结果问了两个问题花了两块多，不是有免费额度的吗，我是服了，好像是指定模型才有，找客服问去
 
 
 模型用量
