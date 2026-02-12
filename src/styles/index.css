@@ -21,6 +21,8 @@ html {
 
 body {
   min-height: 100%;
+  background-color: rgb(var(--color-fill));
+  color: rgb(var(--color-text));
 }
 
 ol,
@@ -58,6 +60,19 @@ menu {
     --color-modal: 251, 251, 251;
   }
 
+  /* 应用基本颜色 */
+  body {
+    background-color: rgb(var(--color-fill));
+    color: rgb(var(--color-text));
+  }
+
+  /* 分割线颜色 */
+  .divider-vertical,
+  .divider-horizontal,
+  .divider-horizontal-mini {
+    background-color: rgba(var(--color-text), .2);
+  }
+
   #sun-icon,
   html[data-theme="dark"] #moon-icon {
     display: none;
@@ -66,6 +81,17 @@ menu {
   #moon-icon,
   html[data-theme="dark"] #sun-icon {
     display: block;
+  }
+
+  /* 深色模式下的其他元素样式 */
+  html[data-theme="dark"] .markdown-body {
+    color: rgb(var(--color-text));
+  }
+  
+  html[data-theme="dark"] .divider-vertical,
+  html[data-theme="dark"] .divider-horizontal,
+  html[data-theme="dark"] .divider-horizontal-mini {
+    background-color: rgba(var(--color-text), .2);
   }
 
 }
