@@ -96,7 +96,7 @@ export const site = {
  */
 export const site = {
     title: 'Astro Theme Yi',
-    favicon: '/favicon.svg',
+    favicon: '/favicon.png',
     description: 'Welcome to my independent blog website! ',
     author: "Cirry",
     avatar: '/avatar.png',

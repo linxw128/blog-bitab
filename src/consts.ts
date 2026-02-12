@@ -23,7 +23,7 @@ import type {AnalyticsConfig} from "./types/analyticsTypes"
  *    All tags will be displayed in single page "/tags".
  */
 export const site = {
-  title: 'Bitab\'s Blog', // required
+  title: '比塔Blog', // required
   favicon: '/favicon.svg', // required
   description: '比塔网的博客 ',
   author: "比塔网", // required

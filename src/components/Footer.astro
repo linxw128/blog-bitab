@@ -4,8 +4,8 @@ import {t} from '@/i18n/utils'
 import getUrl from "@/utils/getUrl";
 let shouldLoadBusuanzi = analytics.enable && analytics.busuanzi
 ---
-
-<div class:list={[shouldLoadBusuanzi ? 'h-16' : 'h-10', 'container p-1 absolute left-0 bottom-0']}>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        <div class:list={[shouldLoadBusuanzi ? 'h-16' : 'h-10', 'container p-1 absolute left-0 bottom-0']}>
   {
     shouldLoadBusuanzi && (
       <div class="flex items-center justify-center text-skin-base">
@@ -19,21 +19,38 @@ let shouldLoadBusuanzi = analytics.enable && analytics.busuanzi
       </div>
     )
   }
+  <!--
   <div class="flex items-center flex-col flex-wrap justify-center mb-4 text-skin-base first:mb-0 sm:flex-row">
-    <div>
-      <span class="cursor-default">Copyright</span>
+     <div>
+      <span class="cursor-default">比塔网</span>
       <i class="ri-copyright-line align-middle"></i>
       <span class="align-middle">{new Date().getFullYear()}</span>
-    </div>
-    {
+    </div> -->
+    <!-- {
       site.beian && (
         <div class="divider-vertical hidden sm:block"></div>
         <a rel="nofollow" target="_blank" href="https://beian.miit.gov.cn/">
           {site.beian}
         </a>
       )
-    }
+    } 
     <div class="divider-vertical"></div>
     <a href={getUrl("/sitemap-0.xml")}>{t('footer.sitemap')}</a>
   </div>
+  -->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <div id="runtime-container" class="flex items-center justify-center space-x-2">
+      <div id="runtime-container" class="flex items-center justify-center space-x-2">
+        <span id="runningtime"></span>
+        <span>|</span>
+        <span>本网站已访问: <span id="busuanzi_value_page_pv" style=" color: hsl(192 98% 55%); font-weight: bold; "></span> 次</span>
+        <span>|</span>
+        <span>总访客: <span id="busuanzi_value_site_uv" style=" color: hsl(192 98% 55%); font-weight: bold; "></span> 人</span>
+        <div class="flex items-center justify-between w-full">
+          <span class="text-center"> <a href="https://www.bitab.net/">比塔网: bitab.net</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span class="text-center">备案号: <a href="https://beian.miit.gov.cn/">闽ICP备2024035729号-2</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span class="text-center">email: vnotes@126.com</span>
+        </div>
+      </div>
+    </div>
 </div>
